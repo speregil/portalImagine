@@ -1,2 +1,2 @@
-# portalImagine
-Portal dinámico del grupo de investigación imagine
+# Portal Imagine
+Portal dinámico del grupo de investigación IMAGINE
