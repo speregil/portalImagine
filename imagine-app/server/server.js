@@ -7,7 +7,6 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 
 // Enrutamiento
-var search = require("./routes/search.route");
 
 // Logica del servidor
 var app = express();
@@ -19,8 +18,6 @@ app.use(cookieParser());
 app.use(cors());
 
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.use('/search/', search);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

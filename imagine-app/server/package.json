@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "imagine-server",
   "version": "1.0.0",
-  "description": "Servidor para el app Sobremesa Digital",
+  "description": "Servidor el portal web del grupo Imagine",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/speregil/sobremesa.git"
+    "url": "git+https://github.com/speregil/portalImagine.git"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -22,7 +22,7 @@
     "express-jwt": "^3.0.1",
     "flickrapi": "^0.6.0",
     "jsonwebtoken": "^5.0.2",
-    "lodash": "^3.10.0",
+    "lodash" : "^4.17.5",
     "mongodb": "^2.2.34",
     "mongojs": "^2.4.1",
     "mongoose": "^5.0.1",
@@ -35,12 +35,12 @@
     "xml2js": "^0.4.19"
   },
   "keywords": [
-    "fotos"
+    "Imagine"
   ],
   "author": "Sebastian Gil",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/speregil/sobremesa/issues"
+    "url": "https://github.com/speregil/portalImagine/issues"
   },
-  "homepage": "https://github.com/speregil/sobremesa#readme"
+  "homepage": "https://github.com/speregil/portalImagine#readme"
 }
